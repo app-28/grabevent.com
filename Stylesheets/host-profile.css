@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+} 
+
+/*BODY START*/
+.sidebar {
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100%;
+    width: 270px;
+    background-color: #424769;
+}
+.side-header {
+    height: 60px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424769;
+    box-shadow: 0px 5px 5px -5px rgb(0 0 0 /10%);
+}
+.side-header h3 {
+    color: #EBECF1;
+}
+.side-content {
+    height: calc(100vh - 60px);
+    overflow: auto;
+}
+.profile {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+.bg-img {
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile-img {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 0 auto .5rem auto;
+    border: 3px solid #7077A1;
+}
+.profile h5 {
+    color: #EBECF1;
+}
+.profile p {
+    font-size: 14px;
+    color: #899DC1;
+}
+.side-menu li {
+    text-align: center;
+    list-style-type: none;
+}
+.side-menu li:hover {
+    background-color: #2B384E;
+}
+.side-menu a {
+    display: block;
+    padding: 1.2rem 0rem;
+    text-decoration: none;
+}
+.side-menu a.active {
+    background-color: #2B384E;
+}
+.side-menu a.active i, .side-menu a.active small {
+    color: #EBECF1;
+}
+.side-menu i {
+    padding-right: 15px;
+    font-size: 20px;
+}
+.side-menu a i, .side-menu a small {
+    color: #899DC1;
+}
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 270px);
+}
+header {
+    right: 0;
+    top: 0;
+    left: 270px;
+    height: 60px;
+    position: fixed;
+    box-shadow: 0px 5px 5px -5px rgb(0 0 0 /10%);
+    background: #EBECF1;
+    transition: left 300ms;
+}
+.header-icon {
+    padding-top: 5px;
+}
+.header-content, .header-menu {
+    display: flex;
+    align-items: center;
+}
+.header-content {
+    justify-content: space-between;
+    padding: 0rem 1.5rem;
+}
+.header-content label {
+    cursor: pointer;
+}
+.menu-toggle-icon {
+    padding-top: 5px;
+}
+.header-menu {
+    justify-content: flex-end;
+    padding-top: .5rem;
+}
+.header-menu label,
+.header-menu .notify-icon {
+    margin-right: 2rem;
+    position: relative;
+}
+.host {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+.host div {
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
+}
+.host a {
+    height: 35px;
+    width: 100px;
+    padding: 5px 5px 0px 13px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #EBECF1;
+    background-color: #424769;
+    border-radius: 5px;
+}
+.host a p {
+    padding-left: 5px;
+}
+main {
+    margin-top: 60px;
+    background-color: #f1f4f9;
+}
+.page-header {
+    padding: 1.5rem 1rem;
+    background: #E9edf2;
+    border-bottom: 1px solid #dee2e8;
+}
+.page-content {
+    padding: 1.3rem 1rem;
+}
+.event {
+    margin: .5rem 0rem 2rem;
+}
+.card {
+    margin-left: 16px;
+    box-shadow: 0px 5px 5px -5px rgb(0 0 0 / 10%);
+    background: #EBECF1;
+    border-radius: 3px;
+}
+.records {
+    box-shadow: 0px 5px 5px -5px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border-radius: 3px;
+}
+.record-header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.record-manipulate {
+    align-items: center;
+    border-radius: 5px;
+}
+.record-manipulate button {
+    height: 37px;
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+    color: #EBECF1;
+    border: none;
+    border-radius: 4px;
+    background-color: #424769;
+}
+.table-responsive {
+    width: 970px;
+    margin-left: 23px;
+    overflow: auto;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: #e9edf2;
+}
+thead th {
+    padding: 1rem 0rem;
+    text-align: center;
+    color: #444;
+    font-size: .9rem;
+}
+table thead th:first-child {
+    padding-left: 1rem;
+}
+table tr {
+    border-bottom: 1px solid #dee2e8;
+}
+table td {
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+.paymentStatus {
+    color: white;
+    background-color: #424769;
+}
+.count {
+    padding-left: 1rem;
+}
+.count p {
+    padding-top: 12px;
+}
+/*BODY END*/
